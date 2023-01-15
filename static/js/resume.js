@@ -1,17 +1,3 @@
-// ------ Education ------//
-// var institutionList = institutionData;
-// var educationDom = "";
-
-// for (var i = 0; i < institutionList.length; i++) {
-//     const {webLink, nameText, scopeText, yearText, location} = institutionList[i];
-//     educationDom += `
-//         <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
-//         ${scopeText}<br> ${location}</p>
-//     `
-// }
-
-// document.getElementById("education-list").innerHTML = educationDom;
-
 // ------ Experience ------ //
 function listWork(list) {
 
