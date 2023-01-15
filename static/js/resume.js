@@ -20,7 +20,7 @@ for (var i = 0; i < institutionList.length; i++) {
 
 document.getElementById("education-list").innerHTML = educationDom;
 
-// Relevant Experience
+// Experience
 function listWork(list) {
 
     var domArea = "";
@@ -67,6 +67,7 @@ function listWork(list) {
     
 };
 
+
 // Data
 var expList = [
     {
@@ -112,50 +113,6 @@ var expList = [
     }
 ];
 
-// var expDom = "";
-
-// for (var e = 0; e < expList.length; e++) {
-//     const {companyName, companyURL, workLocation, jobTitle, yearService, taskList} = expList[e];
-
-//     expDom += `
-//             <div class="row">
-//             <div class="col-6">
-//                 <p class="mb-0"><strong><a href=${companyURL}
-//                             target="_blank">${companyName}</a></strong></p>
-//             </div>
-//             <div class="col-6">
-//                 <p class="mb-0 text-right">${workLocation}</p>
-//             </div>
-//         </div>
-//         <div class="row">
-//             <div class="col-6">
-//                 <p class="mb-0"><strong>${jobTitle}</strong></p>
-//             </div>
-//             <div class="col-6">
-//                 <p class="mb-0 text-right">${yearService}</p>
-//             </div>
-//         </div>
-//         <div class="row">
-//             <div class="col-12">
-//                 <ul>
-//             `
-//     for (var t = 0; t < taskList.length; t++) {
-//         expDom += `    
-//         <li>${taskList[t]}</li>
-//     `
-//     };
-
-//     expDom += `    
-//         </ul>
-//         </div>
-//     </div>
-//     `
-// };
-
-expDom = listWork(expList);
-document.getElementById("exp-list").innerHTML = expDom;
-
-// Past Experience
 var pastExpList = [
     {
         companyName: "WCG ThreeWire",
@@ -164,7 +121,7 @@ var pastExpList = [
         jobTitle: "Remote Clinical Research Coordinator",
         yearService: "August 2020 - November 2020",
         taskList: [
-            "Accurately reviewed and abstracted clinical data of interest within medical records to be submitted into the electronic data capture (EDC)",
+            "Accurately reviewed and abstracted clinical data of interest within medical records to be submitted into the electronic data capture (EDC)"
         ]
 
     },
@@ -185,10 +142,10 @@ var pastExpList = [
         companyName: "",
         companyURL: "",
         workLocation: "",
-        jobTitle: "",
-        yearService: "",
+        jobTitle: "Clinical Research Assistant",
+        yearService: "2016 - 2017",
         taskList: [
-            "",
+            "Assisted various study teams in creating, maintaining, and distributing study documents."
         ]
 
     },
@@ -196,28 +153,31 @@ var pastExpList = [
         companyName: "",
         companyURL: "",
         workLocation: "",
-        jobTitle: "",
-        yearService: "",
+        jobTitle: "Survey Research Associate",
+        yearService: "2014 – 2015",
         taskList: [
-            "",
+            "Collected and maintained confidential phone survey research data for studies."
         ]
 
     },
     {
-        companyName: "",
-        companyURL: "",
-        workLocation: "",
-        jobTitle: "",
-        yearService: "",
+        companyName: "Pace Analytical Services, Inc",
+        companyURL: "https://www.pacelabs.com/",
+        workLocation: "Minneapolis, MN",
+        jobTitle: "Quality Assurance Analyst",
+        yearService: "2013 - 2014",
         taskList: [
-            "",
+            "Acquired all certifications within the lab’s capability with all the state agencies and allowed the company to expand their operations to generate more revenue.",
+            "Managed all lab documents, coordinated revisions and distribution within the lab and to clients."
         ]
 
     }
 ];
 
-// var pastExpDom = "";
+// Relevant
+expDom = listWork(expList);
+document.getElementById("exp-list").innerHTML = expDom;
 
+// Past
 pastExpDom = listWork(pastExpList);
-
 document.getElementById("past-exp-list").innerHTML = pastExpDom;
