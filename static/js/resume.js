@@ -68,3 +68,29 @@ document.getElementById("exp-list").innerHTML = expDom;
 var pastExpList = pastExpData;
 pastExpDom = listWork(pastExpList);
 document.getElementById("past-exp-list").innerHTML = pastExpDom;
+
+// ------ Misc sections ------ //
+var miscList = miscData;
+
+function listMisc() {
+    var domArea = "";
+
+    
+}
+
+var educationDom = "";
+
+for (var i = 0; i < institutionList.length; i++) {
+    const {webLink, nameText, scopeText, yearText, location} = institutionList[i];
+    educationDom += `
+        <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
+        ${scopeText}<br> ${location}</p>
+    `
+}
+
+// OMG I totally want to use the arrow or whatever here xD
+document.getElementById("volunteer-list").innerHTML = volunteerDom;
+document.getElementById("language-list").innerHTML = languageDom;
+document.getElementById("freelance-list").innerHTML = freelanceDom;
+document.getElementById("cert-list").innerHTML = certDom;
+document.getElementById("skill-list").innerHTML = skillDom;

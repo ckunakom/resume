@@ -114,3 +114,96 @@ var pastExpData = [
 
     }
 ];
+
+// Skills, Lanugage
+var miscData = [
+    {
+        section: "skills", 
+        item: [
+            "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
+            "dBT",
+            "Python", 
+            "JavaScript/HTML/CSS", 
+            "Tableau/SSRS/Logi"
+        ]
+        
+    },
+    {
+        section: "education",
+        item: [
+            {
+                webLink: "https://bootcamp.umn.edu/data/", 
+                nameText: "University of Minnesota College of Continuing & Professional Studies",
+                scopeText: "Certificate, Data Visualization and Analytics Boot Camp Program", 
+                yearText: "(2020)", 
+                location: "St. Paul, MN"
+            },
+            {
+                webLink: "https://www.macalester.edu/", 
+                nameText: "Macalester College", 
+                scopeText: "Bachelor of Arts: Biology Major and Chemistry and Japanese Minors",
+                yearText: "(2009-2013)", 
+                location: "St. Paul, MN"
+            }
+        ],
+    },
+    {
+        section: "certification",
+        item: [
+            {
+                webLink: "https://www.socra.org/certification/certification-program/introduction/", 
+                nameText: "Society of Clinical Research Associates",
+                scopeText: "Certified Clinical Research Professional (CCRP)",
+                yearText: "(2019 – 2022)"
+            }
+        ]
+    },
+    {
+        section: "freelance",
+        item: [
+            {
+                webLink: "https://www.macalester.edu/", 
+                nameText: "Macalester College",
+                scopeText: "Physical Education Instructor",
+                yearText: "(2014 – 2017)"
+            },
+            {
+                webLink: "https://www.brandsworld.co.th/",
+                nameText: "BRAND’S ® Essence of Chicken - Cerebos Pacific Ltd.",
+                scopeText: "Newsletter Writer",
+                yearText: "(2012 – 2016)"
+            },
+        ]
+    }, 
+    {
+        section: "volunteer",
+        item: [
+            {
+                webLink: "https://bethematch.org/",
+                nameText: "Be the Match/NMDP",
+                scopeText: "Hematopoietic Stem Cell Courier",
+                yearText: "(2017 – 2020)"
+            },
+        ]
+    },   
+    {
+        section: "languages", 
+        item: [
+            "Thai – Native",
+            "Japanese – Conversational"
+        ]
+    }
+]
+
+var skillData = [
+    "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
+    "dBT",
+    "Python", 
+    "JavaScript/HTML/CSS", 
+    "Tableau/SSRS/Logi"
+];
+
+var langData = [
+    "Thai – Native",
+    "Japanese – Conversational"
+];
