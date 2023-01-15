@@ -118,18 +118,21 @@ var pastExpData = [
 // Skills, Lanugage
 var miscData = [
     {
-        section: "skills", 
+        section: "SKILLS", 
         item: [
-            "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
-            "dBT",
-            "Python", 
-            "JavaScript/HTML/CSS", 
-            "Tableau/SSRS/Logi"
+            {
+                itemList: [
+                    "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
+                    "dBT",
+                    "Python", 
+                    "JavaScript/HTML/CSS", 
+                    "Tableau/SSRS/Logi"
+                ]
+            }
         ]
-        
     },
     {
-        section: "education",
+        section: "EDUCATION",
         item: [
             {
                 webLink: "https://bootcamp.umn.edu/data/", 
@@ -148,7 +151,7 @@ var miscData = [
         ],
     },
     {
-        section: "certification",
+        section: "CERTIFICATION",
         item: [
             {
                 webLink: "https://www.socra.org/certification/certification-program/introduction/", 
@@ -159,9 +162,9 @@ var miscData = [
         ]
     },
     {
-        section: "freelance",
+        section: "FREELANCE",
         item: [
-            {
+            {  
                 webLink: "https://www.macalester.edu/", 
                 nameText: "Macalester College",
                 scopeText: "Physical Education Instructor",
@@ -171,12 +174,12 @@ var miscData = [
                 webLink: "https://www.brandsworld.co.th/",
                 nameText: "BRAND’S ® Essence of Chicken - Cerebos Pacific Ltd.",
                 scopeText: "Newsletter Writer",
-                yearText: "(2012 – 2016)"
+                yearText: "(2012 – 2016)",
             },
         ]
     }, 
     {
-        section: "volunteer",
+        section: "VOLUNTEER",
         item: [
             {
                 webLink: "https://bethematch.org/",
@@ -187,23 +190,27 @@ var miscData = [
         ]
     },   
     {
-        section: "languages", 
+        section: "LANGUAGES", 
         item: [
-            "Thai – Native",
-            "Japanese – Conversational"
+            {
+                itemList: [
+                    "Thai – Native",
+                    "Japanese – Conversational"
+                ]
+            }
         ]
     }
-]
-
-var skillData = [
-    "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
-    "dBT",
-    "Python", 
-    "JavaScript/HTML/CSS", 
-    "Tableau/SSRS/Logi"
 ];
 
-var langData = [
-    "Thai – Native",
-    "Japanese – Conversational"
-];
+// var skillData = [
+//     "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
+//     "dBT",
+//     "Python", 
+//     "JavaScript/HTML/CSS", 
+//     "Tableau/SSRS/Logi"
+// ];
+
+// var langData = [
+//     "Thai – Native",
+//     "Japanese – Conversational"
+// ];

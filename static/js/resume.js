@@ -1,16 +1,16 @@
 // ------ Education ------//
-var institutionList = institutionData;
-var educationDom = "";
+// var institutionList = institutionData;
+// var educationDom = "";
 
-for (var i = 0; i < institutionList.length; i++) {
-    const {webLink, nameText, scopeText, yearText, location} = institutionList[i];
-    educationDom += `
-        <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
-        ${scopeText}<br> ${location}</p>
-    `
-}
+// for (var i = 0; i < institutionList.length; i++) {
+//     const {webLink, nameText, scopeText, yearText, location} = institutionList[i];
+//     educationDom += `
+//         <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
+//         ${scopeText}<br> ${location}</p>
+//     `
+// }
 
-document.getElementById("education-list").innerHTML = educationDom;
+// document.getElementById("education-list").innerHTML = educationDom;
 
 // ------ Experience ------ //
 function listWork(list) {
@@ -70,27 +70,44 @@ pastExpDom = listWork(pastExpList);
 document.getElementById("past-exp-list").innerHTML = pastExpDom;
 
 // ------ Misc sections ------ //
-var miscList = miscData;
-
-function listMisc() {
+function listMisc(list) {
     var domArea = "";
 
-    
-}
+    for (var l = 0; l < list.length; l++) {
+        const {section, item} = list[l];
 
-var educationDom = "";
+        domArea += `
+            <h5><strong>${section}</strong></h5>
+        `;
+        for (var i = 0; i < item.length; i++) {
+            if (section == "SKILLS" || section == "LANGUAGES") {
+                const {itemList} = item[i];
 
-for (var i = 0; i < institutionList.length; i++) {
-    const {webLink, nameText, scopeText, yearText, location} = institutionList[i];
-    educationDom += `
-        <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
-        ${scopeText}<br> ${location}</p>
-    `
-}
+                domArea += `<p>`
+            
+                for (var i = 0; i < itemList.length; i++) {
+                    domArea += `${itemList[i]}<br>`
+                };
+            }       
+            else {
+                const {webLink, nameText, scopeText, yearText, location} = item[i];
+                
+                domArea += `
+                <p><strong><a href=${webLink} target="_blank">${nameText}</strong></a> ${yearText}<br>
+                ${scopeText}`
 
-// OMG I totally want to use the arrow or whatever here xD
-document.getElementById("volunteer-list").innerHTML = volunteerDom;
-document.getElementById("language-list").innerHTML = languageDom;
-document.getElementById("freelance-list").innerHTML = freelanceDom;
-document.getElementById("cert-list").innerHTML = certDom;
-document.getElementById("skill-list").innerHTML = skillDom;
+                if (section == "EDUCATION") {
+                    domArea += `<br>${location}`
+                };
+            };
+        }
+        domArea += `</p><br>`
+
+    }
+
+    return `${domArea}`;
+};
+
+var miscList = miscData;
+miscDom = listMisc(miscList);
+document.getElementById("misc-list").innerHTML = miscDom;
