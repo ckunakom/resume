@@ -7,11 +7,11 @@ var expData = [
         jobTitle: "Analytic Engineer",
         yearService: "December 2021 - Present",
         taskList: [
-            "Design, implement, and maintain cloud-based reporting, visualization, and analytics platform using best practices.",
-        "Ensure associated deliverables meet the expectations of ICH GCPs, data standards, and internal procedures.",
-        "Build and maintain data pipeline for data warehousing using dBT in ELT workflow.",
+        "Converted automation-incompatible SAS code to python and saved the team's manual delivery time weekly.",
+        "Designed and implemented processes for maintaing cloud-based reporting, visualization, and analytics platform using best practices.",
+        "Build data pipeline for data warehousing using dBT in ELT workflow.",
         "Manage relationships with stakeholders, driving a collaborative, cross team culture, ensuring successful delivery and adoption of technology in a matrixed environment.",
-        "Outline process and training plan and document standard work flow for the engineering team and reporting team."
+        "Authored standard work flow document and training plan for the engineering team and reporting team."
         ]
     },
     {
@@ -107,11 +107,11 @@ var miscData = [
         item: [
             {
                 itemList: [
-                    "SQL (Snowflake, MSSQL, Oracle, BigQuery)",
+                    "SQL (Snowflake, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL)",
                     "dBT",
                     "Python", 
                     "JavaScript/HTML/CSS", 
-                    "Tableau/SSRS/Logi"
+                    "BI Tools (Tableau,SQL Server Reporting Services, Logi)"
                 ]
             }
         ]
