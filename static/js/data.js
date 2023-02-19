@@ -111,7 +111,7 @@ var miscData = [
                     "dBT",
                     "Python", 
                     "JavaScript/HTML/CSS", 
-                    "BI Tools (Tableau,SQL Server Reporting Services, Logi)"
+                    "BI Tools (Tableau, SQL Server Reporting Services, Logi)"
                 ]
             }
         ]
