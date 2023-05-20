@@ -7,11 +7,11 @@ var expData = [
         jobTitle: "Analytic Engineer",
         yearService: "December 2021 - Present",
         taskList: [
-        "Converted automation-incompatible SAS code to python and saved the team's manual delivery time weekly.",
-        "Designed and implemented processes for maintaing cloud-based reporting, visualization, and analytics platform using best practices.",
-        "Build data pipeline for data warehousing using dBT in ELT workflow.",
-        "Manage relationships with stakeholders, driving a collaborative, cross team culture, ensuring successful delivery and adoption of technology in a matrixed environment.",
-        "Authored standard work flow document and training plan for the engineering team and reporting team."
+        "Build scalable data pipelines using dBt with Snowflake to efficiently manage growing data volume and complexity.",
+        "Ensure data reliability and accuracy by conducting rigorous testing, implementing monitoring and alerting systems to promptly identify and address potential issues.",
+        "Develop custom code solutions utilizing REST APIs to extend the functionality of a tool and technology, addressing unoffered features.",
+        "Collaborate with cross-functional team to create tailored clinical reports and dashboards using Tableau, in alignment with clients' specific requirements and objectives.",
+        "Author workflow documents and training plans for the team and establish standardized procedures to enhance productivity and knowledge sharing."
         ]
     },
     {
@@ -107,8 +107,8 @@ var miscData = [
         item: [
             {
                 itemList: [
-                    "SQL (Snowflake, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL)",
-                    "dBT",
+                    "SQL (Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL)",
+                    "Git",
                     "Python", 
                     "JavaScript/HTML/CSS", 
                     "BI Tools (Tableau, SQL Server Reporting Services, Logi)"
