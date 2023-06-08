@@ -8,7 +8,8 @@ var expData = [
         yearService: "December 2021 - Present",
         taskList: [
         "Build scalable data pipelines using dBt with Snowflake to efficiently manage growing data volume and complexity.",
-        "Ensure data reliability and accuracy by conducting rigorous testing, implementing monitoring and alerting systems to promptly identify and address potential issues.",
+        "Ensure data reliability and accuracy with robust testing, monitoring and configuring alert systems to promptly identify and address potential issues.",
+        "Implement various features of data delivery application using FastAPI to enable clients to customize their dataset according to their needs.",
         "Develop custom code solutions utilizing REST APIs to extend the functionality of a tool and technology, addressing unoffered features.",
         "Collaborate with cross-functional team to create tailored clinical reports and dashboards using Tableau, in alignment with clients' specific requirements and objectives.",
         "Author workflow documents and training plans for the team and establish standardized procedures to enhance productivity and knowledge sharing."
@@ -64,7 +65,10 @@ var pastExpData = [
         taskList: [
             "Streamlined data collection process to successfully reduce 2000 working hours for Data Management.",
             "Performed clinical trial monitoring visits to confirm site’s compliance and data quality.",
-            "Led in-person and virtual training to new employees and site’s staff and authored guidance documents."
+            "Identified issues, analyzed trends, and conducted root cause analyses to drive continuous improvement in workflow.",
+            "Facilitated UAT testing on the EDC to ensure proper eCRF functions.",
+            "Authored and reviewed eCRF completion guidelines.",
+            "Conducted in-person and virtual training to new employees and site’s staff and authored guidance documents."
         ]
     },
     {
