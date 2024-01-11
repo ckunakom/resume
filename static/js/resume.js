@@ -13,7 +13,7 @@ function listWork(list) {
                                 target="_blank">${companyName}</a></strong></p>
                 </div>
                 <div class="col-6">
-                    <p class="mb-0 text-right">${workLocation}</p>
+                    <p class="mb-0 text-right work-loc">${workLocation}</p>
                 </div>
             </div>
             <div class="row">
