@@ -1,18 +1,31 @@
 // Relevant Exp
 var expData = [
     {
+        companyName: "BASE Life Science",
+        companyURL: "https://www.baselifescience.com/",
+        workLocation: "New York, NY/Remote",
+        jobTitle: "Senior Consultant, Data Engineer",
+        yearService: "May 2024 - Present",
+        taskList: [
+        "Design and maintain scalable data pipelines and architecture using Python to support seamless data migration and integration across systems.",
+        "Lead cross-functional project workstreams from planning to execution, partnering with senior stakeholders to align data engineering activities with business objectives and deliver strategic, measurable outcomes while fostering strong client relationships.",
+        "Mentor junior consultants by providing technical guidance, constructive feedback, and continuous support to promote growth and knowledge-sharing within the team.",
+        "Provide assistance to DevOps team to enhance product functionality via testing new features, documenting bugs and recommending enhancements that improved system performance and functionality."
+        ]
+    },
+    {
         companyName: "Clinical ink",
         companyURL: "https://clinicalink.com/",
         workLocation: "Remote",
         jobTitle: "Analytic Engineer",
-        yearService: "December 2021 - Present",
+        yearService: "December 2021 - April 2024",
         taskList: [
-        "Build scalable data pipelines using dBt with Snowflake to efficiently manage growing data volume and complexity.",
-        "Ensure data reliability and accuracy with robust testing, monitoring and configuring alert systems to promptly identify and address potential issues.",
-        "Implement various features of data delivery application using FastAPI to enable clients to customize their dataset according to their needs.",
-        "Develop custom code solutions utilizing REST APIs to extend the functionality of a tool and technology, addressing unoffered features.",
-        "Collaborate with cross-functional team to create tailored clinical reports and dashboards using Tableau, in alignment with clients' specific requirements and objectives.",
-        "Author workflow documents and training plans for the team and establish standardized procedures to enhance productivity and knowledge sharing."
+        "Built data pipelines using dBt with Snowflake to efficiently manage growing data volume and complexity.",
+        "Ensured data reliability and accuracy with robust testing, monitoring and configuring alert systems to promptly identify and address potential issues.",
+        "Implemented various features of data delivery application using FastAPI to enable clients to customize their dataset according to their needs.",
+        "Developed custom code solutions utilizing REST APIs to extend the functionality of a tool and technology, addressing unoffered features.",
+        "Collaborated with cross-functional team to create tailored clinical reports and dashboards using Tableau, in alignment with clients' specific requirements and objectives.",
+        "Authored workflow documents and training plans for the team and establish standardized procedures to enhance productivity and knowledge sharing."
         ]
     },
     {
@@ -111,9 +124,9 @@ var miscData = [
         item: [
             {
                 itemList: [
+                    "Python", 
                     "SQL (Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL)",
                     "Git",
-                    "Python", 
                     "JavaScript/HTML/CSS", 
                     "BI Tools (Tableau, SQL Server Reporting Services, Logi)"
                 ]
@@ -142,6 +155,12 @@ var miscData = [
     {
         section: "CERTIFICATION",
         item: [
+            {
+                webLink: "https://credentials.veeva.com/8722bfeb-4791-4b64-8ad7-0bea09e31dc6#acc.2QnPpy18", 
+                nameText: "Veeva",
+                scopeText: "Certified Vault Platform Associate Administrator",
+                yearText: "(2025)"
+            },
             {
                 webLink: "https://www.socra.org/certification/certification-program/introduction/", 
                 nameText: "Society of Clinical Research Associates",
