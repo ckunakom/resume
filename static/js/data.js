@@ -10,7 +10,7 @@ var expData = [
         "Design and maintain scalable data pipelines and architecture using Python to support seamless data migration and integration across systems.",
         "Lead cross-functional project workstreams from planning to execution, partnering with senior stakeholders to align data engineering activities with business objectives and deliver strategic, measurable outcomes while fostering strong client relationships.",
         "Mentor junior consultants by providing technical guidance, constructive feedback, and continuous support to promote growth and knowledge-sharing within the team.",
-        "Provide assistance to DevOps team to enhance product functionality via testing new features, documenting bugs and recommending enhancements that improved system performance and functionality."
+        "Provide assistance to DevOps team to enhance product functionality via testing new features, documenting bugs and recommending enhancements that improve system performance and functionality."
         ]
     },
     {
