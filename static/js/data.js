@@ -120,15 +120,14 @@ var pastExpData = [
 // Skills, Lanugage
 var miscData = [
     {
-        section: "SKILLS", 
+        section: "TECH SKILLS", 
         item: [
             {
                 itemList: [
-                    "Python", 
-                    "SQL (Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL)",
-                    "Git",
-                    "JavaScript/HTML/CSS", 
-                    "BI Tools (Tableau, SQL Server Reporting Services, Logi)"
+                    "Python, SQL", 
+                    "Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL",
+                    "Git, AWS, Databricks",
+                    "BI Tools (Tableau, SSRS, Logi)"
                 ]
             }
         ]
