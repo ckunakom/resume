@@ -124,7 +124,7 @@ var miscData = [
         item: [
             {
                 itemList: [
-                    "Python, SQL", 
+                    "Python, Prefect, SQL", 
                     "Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL",
                     "Git, AWS, Databricks",
                     "BI Tools (Tableau, SSRS, Logi)"
