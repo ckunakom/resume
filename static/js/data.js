@@ -4,7 +4,7 @@ var expData = [
         companyName: "BASE Life Science",
         companyURL: "https://www.baselifescience.com/",
         workLocation: "New York, NY/Remote",
-        jobTitle: "Senior Consultant, Data Engineer",
+        jobTitle: "Senior Data Engineer Consultant",
         yearService: "May 2024 - Present",
         taskList: [
         "Design and maintain scalable data pipelines and architecture using Python to support seamless data migration and integration across systems.",
