@@ -10,7 +10,7 @@ var expData = [
         "Design and maintain scalable data pipelines and architecture using Python to support seamless data migration and integration across systems.",
         "Lead cross-functional project workstreams from planning to execution, partnering with senior stakeholders to align data engineering activities with business objectives and deliver strategic, measurable outcomes while fostering strong client relationships.",
         "Mentor junior consultants by providing technical guidance, constructive feedback, and continuous support to promote growth and knowledge-sharing within the team.",
-        "Provide assistance to DevOps team to enhance product functionality via testing new features, documenting bugs and recommending enhancements that improve system performance and functionality."
+        " Collaborate with DevOps to test features and document bugs, improving core system performance and functionality."
         ]
     },
     {
@@ -20,12 +20,12 @@ var expData = [
         jobTitle: "Analytic Engineer",
         yearService: "December 2021 - April 2024",
         taskList: [
-        "Built data pipelines using dBt with Snowflake to efficiently manage growing data volume and complexity.",
-        "Ensured data reliability and accuracy with robust testing, monitoring and configuring alert systems to promptly identify and address potential issues.",
-        "Implemented various features of data delivery application using FastAPI to enable clients to customize their dataset according to their needs.",
-        "Developed custom code solutions utilizing REST APIs to extend the functionality of a tool and technology, addressing unoffered features.",
-        "Collaborated with cross-functional team to create tailored clinical reports and dashboards using Tableau, in alignment with clients' specific requirements and objectives.",
-        "Authored workflow documents and training plans for the team and establish standardized procedures to enhance productivity and knowledge sharing."
+        "Architected scalable dbt and Snowflake pipelines; optimized productivity through standardized workflow and comprehensive training plans.",
+        "Implemented a Snowflake cost optimization framework and saved $24,000 annually.",
+        "Engineered a validation framework using automated testing and real-time monitoring, significantly reducing pipeline downtime.",
+        "Built a FastAPI data delivery tool, reducing manual data extraction requests by 60%.",
+        "Crafted Python-based REST API integrations to extend platform capabilities beyond native tool limitations.",
+        "Partnered with clinical teams to deploy Tableau dashboards, translating medical data into actionable insights."
         ]
     },
     {
@@ -35,10 +35,9 @@ var expData = [
         jobTitle: "Drug Development - Data System Analyst",
         yearService: "May 2021 - December 2021",
         taskList: [
-            "Set up central monitoring dashboard in collaboration with the study team to allow physicians and clinical scientists to assess patient’s clinical data.",
-            "Programmed data integration, transformation and configuration of clinical dashboard conforming with clinical data standard using Python/JavaScript.",
-            "Developed report for dashboards and set up automated data refreshes.",
-            "Assured projects are completed and workflow was documented appropriately using JIRA."
+            "Set up a central monitoring dashboard for physicians and scientists to assess patient clinical data.",
+            "Programmed data transformations and configurations using Python, JavaScript, and TypeScript, adhering to strict clinical data standards.",
+            "Developed reporting suites with automated data refreshes to ensure constant data availability."
         ]
     },
     {
@@ -99,7 +98,7 @@ var pastExpData = [
         companyURL: "",
         workLocation: "",
         jobTitle: "Survey Research Associate",
-        yearService: "2014 – 2015",
+        yearService: "2014 - 2015",
         taskList: [
             "Collected and maintained confidential phone survey research data for studies."
         ]
@@ -117,18 +116,33 @@ var pastExpData = [
     }
 ];
 
-// Skills, Lanugage
+// Skills, Languages
 var miscData = [
     {
-        section: "TECH SKILLS", 
+        section: "LANGUAGES & TOOLS", 
         item: [
             {
                 itemList: [
-                    "Python, Prefect, SQL", 
-                    "Snowflake, dBt, Microsoft SQL Server, Oracle, BigQuery, PostgreSQL",
-                    "Git, AWS, Databricks",
-                    "BI Tools (Tableau, SSRS, Logi)"
+                    "Python, SQL, dbt, Snowflake, Databricks, AWS", 
+                    "Data Orchestration (Prefect, Airflow), Git, CI\/CD"
                 ]
+            }
+        ]
+    },
+    {
+        section: "CERTIFICATION",
+        item: [
+            {
+                webLink: "https://credentials.veeva.com/8722bfeb-4791-4b64-8ad7-0bea09e31dc6#acc.2QnPpy18", 
+                nameText: "Veeva",
+                scopeText: "Certified Vault Platform Associate Administrator",
+                yearText: "(2025)"
+            },
+            {
+                webLink: "https://www.socra.org/certification/certification-program/introduction/", 
+                nameText: "Society of Clinical Research Associates",
+                scopeText: "Certified Clinical Research Professional (CCRP)",
+                yearText: "(2019 - 2022)"
             }
         ]
     },
@@ -152,36 +166,19 @@ var miscData = [
         ],
     },
     {
-        section: "CERTIFICATION",
-        item: [
-            {
-                webLink: "https://credentials.veeva.com/8722bfeb-4791-4b64-8ad7-0bea09e31dc6#acc.2QnPpy18", 
-                nameText: "Veeva",
-                scopeText: "Certified Vault Platform Associate Administrator",
-                yearText: "(2025)"
-            },
-            {
-                webLink: "https://www.socra.org/certification/certification-program/introduction/", 
-                nameText: "Society of Clinical Research Associates",
-                scopeText: "Certified Clinical Research Professional (CCRP)",
-                yearText: "(2019 – 2022)"
-            }
-        ]
-    },
-    {
         section: "FREELANCE",
         item: [
             {  
                 webLink: "https://www.macalester.edu/", 
                 nameText: "Macalester College",
                 scopeText: "Physical Education Instructor",
-                yearText: "(2014 – 2017)"
+                yearText: "(2014 - 2017)"
             },
             {
                 webLink: "https://www.brandsworld.co.th/",
                 nameText: "BRAND’S ® Essence of Chicken - Cerebos Pacific Ltd.",
                 scopeText: "Newsletter Writer",
-                yearText: "(2012 – 2016)",
+                yearText: "(2012 - 2016)",
             },
         ]
     }, 
@@ -192,7 +189,7 @@ var miscData = [
                 webLink: "https://bethematch.org/",
                 nameText: "Be the Match/NMDP",
                 scopeText: "Hematopoietic Stem Cell Courier",
-                yearText: "(2017 – 2020)"
+                yearText: "(2017 - 2020)"
             },
         ]
     },   
@@ -201,8 +198,8 @@ var miscData = [
         item: [
             {
                 itemList: [
-                    "Thai – Native",
-                    "Japanese – Conversational"
+                    "Thai - Native",
+                    "Japanese - Conversational"
                 ]
             }
         ]
