@@ -65,7 +65,7 @@ var pastExpData = [
         jobTitle: "Remote Clinical Research Coordinator",
         yearService: "August 2020 - November 2020",
         taskList: [
-            "Accurately reviewed and abstracted clinical data of interest within medical records to be submitted into the electronic data capture (EDC)"
+            "Accurately reviewed and abstracted clinical data of interest within medical records to be submitted into the electronic data capture (EDC)."
         ]
     },
     {
