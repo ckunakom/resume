@@ -160,7 +160,7 @@ var miscData = [
                 webLink: "https://www.macalester.edu/", 
                 nameText: "Macalester College", 
                 scopeText: "Bachelor of Arts: Biology Major and Chemistry and Japanese Minors",
-                yearText: "(2009-2013)", 
+                yearText: "(2009 - 2013)", 
                 location: "St. Paul, MN"
             }
         ],
