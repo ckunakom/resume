@@ -66,7 +66,7 @@ function listMisc(list) {
             <h5><strong>${section}</strong></h5>
         `;
         for (var i = 0; i < item.length; i++) {
-            if (section == "LANGUAGES & TOOLS" || section == "LANGUAGES") {
+            if (section == "SKILLS" || section == "LANGUAGES") {
                 const {itemList} = item[i];
 
                 domArea += `<p>`

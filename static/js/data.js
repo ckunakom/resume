@@ -4,28 +4,30 @@ var expData = [
         companyName: "BASE Life Science",
         companyURL: "https://www.baselifescience.com/",
         workLocation: "New York, NY/Remote",
-        jobTitle: "Senior Data Engineer Consultant",
+        jobTitle: "Senior Consultant - Data Engineer",
         yearService: "May 2024 - Present",
         taskList: [
-        "Design and maintain scalable data pipelines and architecture using Python to support seamless data migration and integration across systems.",
-        "Lead cross-functional project workstreams from planning to execution, partnering with senior stakeholders to align data engineering activities with business objectives and deliver strategic, measurable outcomes while fostering strong client relationships.",
-        "Mentor junior consultants by providing technical guidance, constructive feedback, and continuous support to promote growth and knowledge-sharing within the team.",
-        " Collaborate with DevOps to test features and document bugs, improving core system performance and functionality."
+        "Design layered entity data models for enterprise Veeva Vault migrations by defining base entities and transactional models that serve as the organizational source of truth, effectively eliminating legacy dependencies and reducing maintenance overhead.",
+        "Build production-grade Python pipelines with zero-tolerance data quality requirements.",
+        "Lead client-facing workstreams from requirements gathering through delivery, translating complex business data structures into technical specifications.",
+        "Perform daily root-cause analysis and data investigation to ensure accuracy across complex source systems.",
+        "Enhance REST API-based ingestion pipelines to speed up the overall ETL process and develop custom scripts to streamline data cleanup, ensuring data integrity across migration workflows.",
+        "Foster growth among junior consultants and data specialists through technical guidance and code reviews."
         ]
     },
     {
         companyName: "Clinical ink",
         companyURL: "https://clinicalink.com/",
         workLocation: "Remote",
-        jobTitle: "Analytic Engineer",
+        jobTitle: "Analytics Engineer",
         yearService: "December 2021 - April 2024",
         taskList: [
-        "Architected scalable dbt and Snowflake pipelines; optimized productivity through standardized workflow and comprehensive training plans.",
-        "Implemented a Snowflake cost optimization framework and saved $24,000 annually.",
-        "Engineered a validation framework using automated testing and real-time monitoring, significantly reducing pipeline downtime.",
-        "Built a FastAPI data delivery tool, reducing manual data extraction requests by 60%.",
-        "Crafted Python-based REST API integrations to extend platform capabilities beyond native tool limitations.",
-        "Partnered with clinical teams to deploy Tableau dashboards, translating medical data into actionable insights."
+        "Architected the core dbt and Snowflake data reporting platforms from the ground up, transitioning data infrastructure from PostgreSQL to governed data marts to support multi-tenant enterprise scale.",
+        "Established development standards and trained reporting teams, accelerating ecosystem transition.",
+        "Built modular, reusable dbt environments incorporating advanced Jinja templating, automated documentation & validation testing, and CI/CD pipelines to enforce software engineering best practices.",
+        "Engineered a validation framework catching data anomalies before they reached clients; implemented Snowflake cost optimization saving $24,000 annually.",
+        "Designed and deployed a self-service data tool using FastAPI, Python, and Snowflake that reduced manual data extraction overhead by 60%.",
+        "Developed custom Python-based REST API integrations to enable Tableau workbook version control, filling a gap in the platform's native capabilities."
         ]
     },
     {
@@ -35,9 +37,9 @@ var expData = [
         jobTitle: "Drug Development - Data System Analyst",
         yearService: "May 2021 - December 2021",
         taskList: [
-            "Set up a central monitoring dashboard for physicians and scientists to assess patient clinical data.",
-            "Programmed data transformations and configurations using Python, JavaScript, and TypeScript, adhering to strict clinical data standards.",
-            "Developed reporting suites with automated data refreshes to ensure constant data availability."
+            "Engaged as a consultant to set up and maintain central monitoring dashboards with clinical stakeholders, assessing patient clinical data and regulatory compliance.",
+            "Programmed data transformations/configurations using Python, JavaScript, and TypeScript, adhering to strict clinical data standards.",
+            "Created reporting suites with automated data refreshes to ensure constant data availability for clinical teams."
         ]
     },
     {
@@ -47,8 +49,8 @@ var expData = [
         jobTitle: "Clinical Data Analyst",
         yearService: "November 2020 - April 2021",
         taskList: [
-            "Created and maintained protocol-specific electronic case report forms (eCRF)s through cross-team collaboration for data collection", 
-            "Built data cleaning reports for data review to ensure data quality and integrity using SQL.",
+            "Created and maintained protocol-specific electornic Case Report Forms (eCRFs) in Oracle Clinical/RDC through cross-team collaboration for cardiac device and spine stimulation studies.", 
+            "Built data cleaning reports and SQL-based edit checks to minimize manual data review and ensure data quality.",
             "Effectively devised Edit Check specifications to minimize manual data review.",
             "Defined and oversaw data deliverable projects according to the study milestones and regulatory submission requirement.",
             "Authored and maintained essential data management documentation."
@@ -65,7 +67,7 @@ var pastExpData = [
         jobTitle: "Remote Clinical Research Coordinator",
         yearService: "August 2020 - November 2020",
         taskList: [
-            "Accurately reviewed and abstracted clinical data of interest within medical records to be submitted into the electronic data capture (EDC)."
+            "Reviewed and abstracted clinical data from medical records for submission into various electronic data capture (EDC) systems, ensuring accuracy and completeness."
         ]
     },
     {
@@ -75,12 +77,11 @@ var pastExpData = [
         jobTitle: "Clinical Research Associate II",
         yearService: "2017 - 2020",
         taskList: [
-            "Streamlined data collection process to successfully reduce 2000 working hours for Data Management.",
-            "Performed clinical trial monitoring visits to confirm site’s compliance and data quality.",
-            "Identified issues, analyzed trends, and conducted root cause analyses to drive continuous improvement in workflow.",
-            "Facilitated UAT testing on the EDC to ensure proper eCRF functions.",
-            "Authored and reviewed eCRF completion guidelines.",
-            "Conducted in-person and virtual training to new employees and site’s staff and authored guidance documents."
+            "Streamlined data collection processes, reducing 2000 working hours for Data Management.",
+            "Performed clinical trial monitoring visits confirming site compliance, data quality, and protocol adherence.",
+            "Flagged unreported SAEs and protocol deviations through source document verification and patient record review.",
+            "Facilitated UAT testing on EDC to ensure proper eCRF function prior to site activation.",
+            "Authored eCRF completion guidelines and delivered in-person and virtual training to site staff.",
         ]
     },
     {
@@ -90,7 +91,7 @@ var pastExpData = [
         jobTitle: "Clinical Research Assistant",
         yearService: "2016 - 2017",
         taskList: [
-            "Assisted various study teams in creating, maintaining, and distributing study documents."
+            "Assisted Research Operations and Audit and Monitoring teams in creating, maintaining, and distributing study documents."
         ]
     },
     {
@@ -110,8 +111,8 @@ var pastExpData = [
         jobTitle: "Quality Assurance Analyst",
         yearService: "2013 - 2014",
         taskList: [
-            "Acquired all certifications within the lab’s capability with all the state agencies and allowed the company to expand their operations to generate more revenue.",
-            "Managed all lab documents, coordinated revisions and distribution within the lab and to clients."
+            "Acquired all applicable US state agency certifications for the lab, enabling expansion of operations.",
+            "Managed all lab documents, coordinated revisions and distribution to stakeholders and clients."
         ]
     }
 ];
@@ -119,12 +120,13 @@ var pastExpData = [
 // Skills, Languages
 var miscData = [
     {
-        section: "LANGUAGES & TOOLS", 
+        section: "SKILLS", 
         item: [
             {
                 itemList: [
-                    "Python, SQL, dbt, Snowflake, Databricks, AWS", 
-                    "Data Orchestration (Prefect, Airflow), Git, CI\/CD"
+                    "<b>Technical Stack:</b> dbt (Core & Cloud), SQL, Python, Snowflake, Databricks, PostgreSQL, Tableau", 
+                    "<b>Data Architecture:</b> Entity-Relationship & Dimensional modeling, Semantic Layer Design, ETL/ELT Pipelines, Data Quality & Validation Frameworks, AI Tooling Optimization (Claude, Gemini, Copilot)",
+                    "<b>Cloud & Orchestration:</b> AWS, Airflow/Prefect, FastAPI, REST APIs, Git, CI/CD"
                 ]
             }
         ]
